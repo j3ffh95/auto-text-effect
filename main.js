@@ -1,3 +1,8 @@
 const text = document.getElementById("text");
 const prog = "We Love Programming!";
 let idx = 1;
+
+function writeText() {
+  text.innerText = prog.slice(0, idx);
+  idx++;
+}
